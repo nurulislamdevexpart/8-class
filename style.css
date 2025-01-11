@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container .menu {
+    padding: 15px 25px;
+    background: rgb(214, 214, 211);
+    box-shadow: 0px 0px 15px rgba(236, 235, 235, 0.4);
+}
+
+.container .menu .row {
+    display: grid;
+    grid-template-columns: 300px auto;
+    align-items: center;
+}
+
+.container .menu .row .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container .menu .row .list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .menu .row .list ul {
+    display: flex;
+    list-style: none;
+}
+
+.container .menu .row .list ul li {
+    padding: 0px 8px;
+}
+
+.container .menu .row .list ul li a {
+    text-decoration: none;
+    color: purple; /* মেনু আইটেমের জন্য রঙ */
+}
+/* Service Section Styles */
